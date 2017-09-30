@@ -2,9 +2,9 @@ Adrian Amaglio
 Groupe C2
 N° 11711172
 
-#Le jeu de balle au prisonnier
+# Le jeu de balle au prisonnier
 
-#Le modèle MVC
+# Le modèle MVC
 Dans ce projet, le choix a été fait de placer la vue comme élément actif. Les classes qui la composent se charge de la gestion des événements utilisateur et notifient le contrôleur lorsque c’est nécessaire.
 Chaque objet ayant une interaction directe avec la vue, les joueurs et la balle pour commencer, ont un proxy chargé d’assurer la cohérence des comportements entre le cœur du jeu et son interface graphique.
 Cette pratique permet de laisser le soin à l’interface de rythmer le programme, ce qui est bien plus efficace et confortable dans un jeu en temps réel.
