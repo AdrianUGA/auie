@@ -3,6 +3,8 @@ Groupe C2
 N° 11711172
 
 # Le jeu de balle au prisonnier
+### Installation
+mvn install
 
 ## Le modèle MVC
 Dans ce projet, le choix a été fait de placer la vue comme élément actif. Les classes qui la composent se charge de la gestion des événements utilisateur et notifient le contrôleur lorsque c’est nécessaire.
